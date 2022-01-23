@@ -3,13 +3,17 @@ import './style.css';
 import Greet from './Greet';
 import Welcome from './Welcome ';
 
-import Parent from './Parent';
+import Display from './Parent';
 
 import Foo from './Foo';
 import List from './List';
+
+
 export default function App() {
   return (
     <div>
+{/*   
+  
       <h1>Hello world</h1>
       <List />
       <Foo />
@@ -22,7 +26,12 @@ export default function App() {
       <button type="button" class="btn btn-primary">Primary</button>
 
       
-      <p>Start editing to see some magic happen :)</p>
+      <p>Start editing to see some magic happen :)</p> */
+      }
+ 
+ <Display name="raj"/>    
+
     </div>
+    
   );
 }

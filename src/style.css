@@ -2,3 +2,12 @@ h1,
 p {
   font-family: Lato;
 }
+
+
+.primary
+{
+text-decoration: dotted;
+-webkit-text-fill-color: blue;
+
+
+}
